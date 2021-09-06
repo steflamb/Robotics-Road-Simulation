@@ -16,7 +16,7 @@ Report can be found [here](https://github.com/felixboelter/Robotics-Road-Simulat
 * PyTorch 1.8.1 or higher
 ## Installation
 ### 1. Add models to ".gazebo/models"
-Add the contents of the folder "ADD TO .GAZEBO models" to ".gazebo/models"
+Add the contents of the folder "Models" to ".gazebo/models"
 ### 2. Launch the code using the launcher file
 In the terminal you can run the following code to launch the environment into Gazebo,
 ```
