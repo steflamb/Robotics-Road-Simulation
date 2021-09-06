@@ -1,0 +1,218 @@
+material RoboProject/Floor
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture floor.png
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material RoboProject/Blackstraight
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture Blackstraight.jpeg
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material RoboProject/Redstraight
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture Redstraight.jpeg
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material RoboProject/redBlackCross
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture redBlackCross.png
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material RoboProject/Redhardturn
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture Redhardturn.jpeg
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+material RoboProject/Blackhardturn
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture Blackhardturn.jpeg
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+material RoboProject/Redeasyturn
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture Redeasyturn.jpeg
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+material RoboProject/Blackeasyturn
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture BlackEasyTurn.jpeg
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+
+material RoboProject/giveWay
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture GiveWay.png
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+
+material RoboProject/NoLimit
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture NoLimit.png
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}
+
+material RoboProject/SpeedLimit
+{
+  receive_shadows on
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+
+      texture_unit
+      {
+        texture SpeedLimit.png
+        filtering anistorpic
+        max_anisotropy 16
+      }
+    }
+  }
+}

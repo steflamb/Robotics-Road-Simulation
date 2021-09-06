@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Robo Project">
+    <static>true</static>
+    <link name="link">
+      
+     <visual name="visual_floor_22">
+        <pose>0 0 0 0 0 1.5707</pose>
+        <geometry>
+          <box>
+            <size>10 10 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://robo_project/materials/scripts</uri>
+            <uri>model://robo_project/materials/textures</uri>
+            <name>RoboProject/FloorStripped</name>
+          </script>
+        </material>
+      </visual>
+      
+    </link>
+  </model>
+</sdf>
