@@ -22,3 +22,8 @@ In the terminal you can run the following code to launch the environment into Ga
 ```
 roslaunch robotics_project_2021 robotics_project_2021.launch
 ```
+### 3. Seeing what the robot sees
+To see what the robot sees and the GUI use the command,
+```
+rqt
+```
