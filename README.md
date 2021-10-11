@@ -1,4 +1,5 @@
 [Stefano Carlo Lambertenghi](https://github.com/steflamb)
+
 [Felix Boelter](https://github.com/felixboelter/)
 
 # Robotics Road Simulation
